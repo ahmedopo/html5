@@ -1,0 +1,31 @@
+p{
+    /*l'appel du selecteur(nom de la balise,lenom d'une classe..*/
+    /*ici je met le code css */
+    /*la forme d'une proprieté*/
+   /* non_propriete:valeur_propriete;/*
+/*un exemple */
+color:red;
+font-family:'josefin Sans',sans-serif ;
+
+}
+
+
+h1{
+    color:yellow;/*propriete color permet de changer la coleur du texte*/
+
+    background-color: brown;/*background-color permet de changer la couleur de l'arrière plan*/
+    text-align: center;/* text-align permet d'aligner le text*/
+    font-size:70px;
+    
+}
+/*l'appel/*/
+.premier_p{ color: brown;
+    font-size: 26px;
+    text-align: right;
+}
+.deuxieme_p{ color:slategray;
+    font-size: 70px;
+    text-align: left;
+}
+
+

@@ -1,0 +1,24 @@
+
+.premier{ color:black;
+    background-color: indianred;
+    font-size: 26px;
+    text-align: center;
+}
+.deuxieme{ color:black;
+    background-color: greenyellow;
+    font-size: 26px;
+    text-align: left;
+}
+.troisieme{
+
+}
+
+.quatrieme{ 
+    
+    
+    text-align: right  ;
+
+}
+img{
+    width: 150px;
+}

@@ -1,0 +1,45 @@
+body{ width: 1300px;
+
+margin: 0 auto;
+font-family: cursive
+
+
+
+}
+
+header,footer{background-color: red;
+
+height: 100px;
+color: royalblue;
+text-align: center;
+
+
+   }
+
+   nav{
+
+background-color: salmon;
+height: 60px;
+color: seashell;
+padding-left: 15px;
+padding-top: 15px;
+
+
+   }
+
+   section{ 
+       background-color: slateblue;
+       height: 500px;
+       padding: 50px;
+   }
+
+   section p{     background-color: steelblue;
+height: 400px;
+margin: 20 px;
+text-align: center;
+color: white;
+
+}
+p{ margin: 0;}
+
+

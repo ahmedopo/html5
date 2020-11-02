@@ -1,0 +1,79 @@
+.pink{ background-color: hotpink;
+
+
+
+
+}
+
+article{
+background-color: lawngreen;
+
+}
+footer{
+    clear: both;
+background-color:red;
+
+color: black;
+
+
+margin: 10px 50px 2px 40px;/*margin permet de faire des espacements entre les elements,principalement il contient 4 chiffres qui suit le tour de l'horloge,(top,right,bottom(bas)left)*/
+
+padding: 100 px;
+padding-right: 50 px;
+padding-top: 150px;
+
+width: 500px;/*permet de definir la taille/la largeur du bloc */
+
+}
+
+#article{
+
+    background: wheat;
+
+}
+
+nav{ font-size: 10 px;
+
+    padding-left: 1500px;
+
+
+
+}
+
+a{
+font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: lightblue;/*permet de chan,hger la decoration du texte ,on met none pour supprimer la decoration*/
+     color:lightblue;
+font-size: 20px;  
+padding: 26px;
+
+}
+body{
+width: 1300px;
+text-align: center;
+margin: 0 auto;/*permet de centrer le contenu de la page et va creer un margin automatique (gauche et droite) et en haut et en bas le margin sera 0*/
+
+
+}
+
+.article{
+
+background-color: red;
+    float: right;
+    width: 500;
+    height: 1500;
+    padding-top: 150px;
+
+}
+
+.article2{
+    background-color: darkmagenta;
+    float: left;
+    width: 500;
+    height: 1500;
+    padding-top: 150px;
+
+
+
+}
+

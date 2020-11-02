@@ -1,0 +1,19 @@
+label{
+    font-weight:bold;
+    background-color:lightslategray;
+    padding:5px;
+}
+.sauve{
+    background-color:lightseagreen;
+    padding:10px;
+    border:none;/*supprimer le bordure sur le boutton*/
+    color:white;
+
+}
+legend{
+    background-color: lightseagreen;
+    padding:15px;
+}
+fieldset{
+    border:1px solid lightseagreen;
+}
