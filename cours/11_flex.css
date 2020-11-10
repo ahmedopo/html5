@@ -1,0 +1,85 @@
+
+h2{background-color: grey;}
+
+h1 {
+    background-color: #3A4454;
+    color: whitesmoke;
+    padding: 1em;
+}
+h2 {
+    background-color: #6B737F;
+    color: white;
+    padding: 0.5em;
+}
+h3 {
+    background-color: #C2B2B4;
+    color: #610F7F;
+    padding: 0.25em;
+}
+
+.item1{
+
+background-color: lightsalmon;
+width: 80px;
+height: 80px;
+/*flex-grow: 300px;/* pour definir la taille d'un element par rapport au autres elements,je donne la possibilite des elements de grandir l'elemnt si necessaire la taille en px*/
+}
+.item2{
+
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    flex-basis: 250px;
+    }
+.item3{
+
+        background-color: red;
+        width: 80px;
+        height: 80px;
+        order: 1; /*il change l'ordre d'un element par rapport au flux web*/
+        }
+
+.contenu_1{
+    border: 1px solid orange;
+    height: 200px;
+    display:flex;
+    flex-direction: row;/* la valeur par defaut est row,les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: space-around; /*la valeur par defaut ici c'est flex-start,les valeurs possible ici(center,flex-end,flex-start,space-betwen,space-around)*/
+
+/* space betwen les elemets sont repartie sur la totalité  de la ligne en créent des espaces entre les elements*/
+/* space around les elemets sont repartie sur la totalité  de la ligne en créent des espaces entre les elements*/
+
+
+
+/* align item permet d'aligner l'element sur la hauteur du conteneur seulement si l'element na pas de height de base ,(height n'est pas defini)*/
+align-items:stretch;/* les valeurs disponibles (flex-end,flexstart,center,strectch,baseline)*/
+
+}
+
+.contenu_2{
+    border:1px solid orange;
+    height: 200px;
+    display:flex;
+    flex-direction:row;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: center;
+    align-items: center;
+}
+.contenu_3{
+    border:1px solid orange;
+    height: 400px;
+    display:flex;
+    flex-direction:column;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: space-between;
+    order:1;
+
+}
+.contenu_4{
+    border:1px solid orange;
+    height: 200px;
+    display:flex;
+    flex-direction:row-reverse;/*la valeur par defaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    flex-wrap: nowrap;/* definit  est ce que les elements seront obligatoirement sur une seule ligne ou bien ils ont la possibilite d'etre sur plusieurs ligne*/
+
+    /*align content il fait la meme chose que align-item */
+}
+

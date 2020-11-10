@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!--balise meta="viewport" permet de controler l'affichage pour les versions mobile,ici"initial-scale=1.0" signifie que il n'ya pas de zoom sur la fenetre-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ici on met la description de la page qui ne doit pas dépasser 255 caratères espace y compris">
+    <title>les positions:relative,absolute,fixed</title><!--c'est le titre de la page ,contient au maximum 65 caracteres espaces y compris-->
+    <meta name="author" content="Ahmed"><!--l'auteur du site-->
+
+    <link rel="stylesheet" href="10_position.css"><!--liaison  avec le fichier css-->
+
+</head>
+<body>
+<!-- les positions permet de gérer plus librement l'emplacement des elements
+il y a plusieurs valeurs possible pour position,absolute,relative,fixed,static,sticky...-->
+<!--postion relative,il permet de positionner un element par rapport  ason emplacement ou bien par rapport  a d'autres elements-->
+<!--position absolute permet de positionner  des elements dans la page par rapport au point zero(x,y) le point  qui est a gauche en haut-->
+<!--fixed permet de coller un element( reste fixed tout en scrollant la page en bas-->
+<!--la syntax de position 
+position: relative/absolute/fixed...
+left:100px; permet de decaler l'element de 100px a partir de la gauche 
+bottom:150px; permet de decaler  de 150px a partir du bas
+top:250px;permet de decaler de 250px a partir du haut
+right:360px; permet de decaler de la droite de 360px
+
+-->
+<header>
+position fixed en haut a gauche ,qui va rester fixe lorsqu'on scrolle en bas
+
+
+
+</header>
+<div class="bloc1">
+
+    <div class="item1">position relative division1 (position absolute right:0,top:150px;</div>
+    <div class="item2">position relative division2 (position absolute bottom:0 right:0)</div>
+</div>
+
+<div class="bloc2">
+    bloc parent en position relative
+
+    <div class="item3">position relative division3(position: relative;
+        top: 150px;
+        left: 300px;)  decaler de 150 px par rapport a son dossier parent</div>
+    <div class="item4">position relative division4</div>
+</div>
+</body>
+</html>

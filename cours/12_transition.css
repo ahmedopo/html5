@@ -1,0 +1,71 @@
+
+
+ul{ width: 16em;
+
+}
+
+
+
+
+
+
+ul li {list-style: none;
+
+border:1px solid lightslategray ;
+font-size: 2em;
+padding: 1em;
+}
+
+
+
+.right{
+
+display: flex;
+
+
+}
+
+.conteneur{
+    margin-top: 3em;
+display: flex;
+font-family: sans-serif;
+
+
+}
+
+.right ul li:first-child{
+
+background-color: lightslategray;
+font-weight: bold;
+
+
+
+
+
+}
+
+.right ul{
+padding: 0;
+text-align: center;
+
+}
+
+.left ul{
+margin-top: 7.5em;
+}
+.left ul li:hover{
+
+background-color: orange;
+
+}
+
+.right .liste:hover{/* hover permet de declencher des elements lorsque l'ont passe dessus*/
+/* transform permet d'apporter des modification sur un element soit rotation avec rotet(180deg),soit changement de taille avec scale(1.5)*/
+transform: scale(1.1);
+transition: 2s;/* transition pour gere la duree de l'animation et le type d'animation*/
+background: linear-gradient(#d5d5d5,#8a8a8a);/*creer un ariere plan degradé*/
+
+}
+.right.liste:hover{/* idealement on met transition sur l'elemnt sans hover pour voir l'effet*/
+
+}

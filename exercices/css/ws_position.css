@@ -1,0 +1,76 @@
+
+body{height:1300px;
+}
+
+.rectangle{
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 200px 100px 0 100px;
+border-color: #ff0055 transparent transparent transparent;
+position: sticky;
+left: calc(50% - 100px);/*calc fonction permet de calculer la taille en fonction de la taille de l'ecran tout en soustrayant la taille du bloc,pour bien centrer*/
+top:0px;/*le point ou il va rester coller et bouge pas*/
+margin-top: 100px;
+z-index: 2;
+
+}
+.conteneur{
+
+    height: 1200px;
+
+
+
+
+}
+
+
+.carre{
+    width: 75px;
+    height: 75px;
+}
+
+body .carre:first-child{background-color: brown;
+position: absolute;
+left: 0%;
+bottom: 0%;
+}
+.carre:nth-child(2){ background-color: cadetblue;
+    position: fixed;
+    right: 0%;
+    top: 0%;}
+.carre:nth-child(4){ background-color: black;
+    position: fixed;
+    left: 0%;
+    top: 0%;}
+.carre:last-child{ background-color: chartreuse;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;}
+
+
+
+
+.rond{
+width: 100px;
+height: 100px;
+background-color: green;
+border-radius: 50%;/*pour creer des ronds on utilise border radius*/
+position: relative;
+left: calc(50% - 50px);
+z-index: 1;
+
+
+
+
+}
+
+.ombre{ 
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border-radius: 50%;
+    position: relative;
+    left: calc(50% - 50px);
+}
